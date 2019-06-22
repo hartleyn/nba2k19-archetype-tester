@@ -1,22 +1,38 @@
-import React from 'react';
-import {  } from 'react-router-dom';
-import { Collapsible, CollapsibleItem } from 'react-materialize';
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
+import { connect } from 'react-redux';
+
+import ArchetypePicker from './ArchetypePicker';
 
 
-const Home = props => (
-	<div>
-        <Collapsible>
-            <CollapsibleItem header="Better safe than sorry. That's my motto." icon="filter_drama">
-            Better safe than sorry. That's my motto.
-            </CollapsibleItem>
-            <CollapsibleItem header="Yeah, you do seem to have a little 'shit creek' ac…" icon="place">
-            Yeah, you do seem to have a little 'shit creek' action going.
-            </CollapsibleItem>
-            <CollapsibleItem header="You know, FYI, you can buy a paddle. Did you not p…" icon="whatshot">
-            You know, FYI, you can buy a paddle. Did you not plan for this contingency?
-            </CollapsibleItem>
-        </Collapsible>
-	</div>
-)
+class Home extends Component {
+  render() {
+    let uniqueKey = 0;
+    const archetypeData = this.props.archetypeData.map(data => (
+      <tr key={uniqueKey++}>
+        <td>{data.attribute}</td>
+        <td>{data.ratingCap}</td>
+      </tr>
+    ));
+    return (
+      <div>
+        <ArchetypePicker />
+        <table>
+          <tbody>
+            { archetypeData }
+          </tbody>
+        </table>
+      </div>
+    )
+  }
+}
 
-export default Home;
+Home.propTypes = {
+  archetypeData: PropTypes.array.isRequired,
+}
+
+const mapStateToProps = state => ({
+  archetypeData: state.skill.archetypeData,
+})
+
+export default connect(mapStateToProps)(Home);
