@@ -1,8 +1,10 @@
 {
-  "name": "follow-list-timeline",
+  "name": "nba-2k19-archetypes-tester",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.0.0",
+    "axios": "^0.18.0",
     "braces": "^3.0.2",
     "handlebars": "^4.1.2",
     "materialize-css": "^1.0.0",
