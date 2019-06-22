@@ -31,3 +31,17 @@
     transform: rotate(360deg);
   }
 }
+
+.clickable {
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+.skillCards {
+  height: 36px;
+  text-align: center;
+  padding: 10px;
+}
