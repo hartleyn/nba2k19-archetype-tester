@@ -1,0 +1,142 @@
+{
+  "PG": {
+    "primary_skills": [
+      "3PT Shooting",
+      "Defending",
+      "Driving & Finishing",
+      "Passing & Ball Handling",
+      "Shot Creating"
+    ],
+    "secondary_skills": [
+      "3PT Shooting",
+      "Defending",
+      "Driving & Finishing",
+      "Passing & Ball Handling",
+      "Post Scoring",
+      "Rebounding",
+      "Shot Creating"
+    ],
+    "heights": [
+      "5'7",
+      "5'8",
+      "5'9",
+      "5'10",
+      "5'11",
+      "6'0",
+      "6'1",
+      "6'2",
+      "6'3",
+      "6'4",
+      "6'5",
+      "6'6"
+    ]
+  },
+  "SG": {
+    "primary_skills": [
+      "3PT Shooting",
+      "Defending",
+      "Driving & Finishing",
+      "Passing & Ball Handling",
+      "Shot Creating"
+    ],
+    "secondary_skills": [
+      "3PT Shooting",
+      "Defending",
+      "Driving & Finishing",
+      "Passing & Ball Handling",
+      "Post Scoring",
+      "Rebounding",
+      "Shot Creating"
+    ],
+    "heights": [
+      "6'0",
+      "6'1",
+      "6'2",
+      "6'3",
+      "6'4",
+      "6'5",
+      "6'6",
+      "6'7",
+      "6'8"
+    ]
+  },
+  "SF": {
+    "primary_skills": [
+      "3PT Shooting",
+      "Defending",
+      "Driving & Finishing",
+      "Passing & Ball Handling",
+      "Post Scoring",
+      "Shot Creating"
+    ],
+    "secondary_skills": [
+      "3PT Shooting",
+      "Defending",
+      "Driving & Finishing",
+      "Passing & Ball Handling",
+      "Post Scoring",
+      "Rebounding",
+      "Shot Creating"
+    ],
+    "heights": [
+      "6'6",
+      "6'7",
+      "6'8",
+      "6'9",
+      "6'10"
+    ]
+  },
+  "PF": {
+    "primary_skills": [
+      "3PT Shooting",
+      "Defending",
+      "Driving & Finishing",
+      "Post Scoring",
+      "Rebounding"
+    ],
+    "secondary_skills": [
+      "3PT Shooting",
+      "Defending",
+      "Driving & Finishing",
+      "Passing & Ball Handling",
+      "Post Scoring",
+      "Rebounding",
+      "Shot Creating"
+    ],
+    "heights": [
+      "6'7",
+      "6'8",
+      "6'9",
+      "6'10",
+      "6'11",
+      "7'0"
+    ]
+  },
+  "C": {
+    "primary_skills": [
+      "3PT Shooting",
+      "Defending",
+      "Driving & Finishing",
+      "Post Scoring",
+      "Rebounding"
+    ],
+    "secondary_skills": [
+      "3PT Shooting",
+      "Defending",
+      "Driving & Finishing",
+      "Passing & Ball Handling",
+      "Post Scoring",
+      "Rebounding",
+      "Shot Creating"
+    ],
+    "heights": [
+      "6'9",
+      "6'10",
+      "6'11",
+      "7'0",
+      "7'1",
+      "7'2",
+      "7'3"
+    ]
+  }
+}
