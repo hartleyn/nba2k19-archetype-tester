@@ -32,6 +32,10 @@
   }
 }
 
+.mainApp {
+  padding-top: 50px;
+}
+
 .clickable {
   cursor: pointer;
 }
@@ -44,4 +48,30 @@
   height: 36px;
   text-align: center;
   padding: 10px;
+}
+
+.selectPaper {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.brandColor {
+  background-color: #24292e;
+}
+
+.badgeCountPaper {
+  min-height: 80px;
+  position: relative;
+  border-radius: 3%;
+}
+
+.badgeCount {
+  position: absolute;
+  top: 28%;
+  left: 46%;
+  margin: 0;
+}
+
+.navHeader {
+  font-family: 'Raleway Black', Arial, sans-serif;
 }
