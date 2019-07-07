@@ -4,6 +4,7 @@ import { Provider } from 'react-redux';
 import store from './store';
 
 import Main from './components/Main';
+import NavBar from './components/NavBar';
 
 
 class App extends Component {
@@ -11,6 +12,7 @@ class App extends Component {
     return (
       <Provider store={store}>
         <div className="App">
+          <NavBar />
           <Main />
         </div>
       </Provider>
