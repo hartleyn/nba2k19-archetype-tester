@@ -75,3 +75,19 @@
 .navHeader {
   font-family: 'Raleway Black', Arial, sans-serif;
 }
+
+.hofBackground {
+  background-color: rgb(135, 58, 199) !important;
+}
+
+.goldBackground {
+  background-color: rgb(255, 215, 0) !important;
+}
+
+.silverBackground {
+  background-color: rgb(192, 192, 192) !important;
+}
+
+.bronzeBackground {
+  background-color: rgb(205, 127, 50) !important;
+}
