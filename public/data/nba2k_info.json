@@ -1,13 +1,13 @@
 {
-  "PG": {
-    "primary_skills": [
+  "Point Guard": {
+    "primarySkills": [
       "3PT Shooting",
       "Defending",
       "Driving & Finishing",
       "Passing & Ball Handling",
       "Shot Creating"
     ],
-    "secondary_skills": [
+    "secondarySkills": [
       "3PT Shooting",
       "Defending",
       "Driving & Finishing",
@@ -31,15 +31,15 @@
       "6'6"
     ]
   },
-  "SG": {
-    "primary_skills": [
+  "Shooting Guard": {
+    "primarySkills": [
       "3PT Shooting",
       "Defending",
       "Driving & Finishing",
       "Passing & Ball Handling",
       "Shot Creating"
     ],
-    "secondary_skills": [
+    "secondarySkills": [
       "3PT Shooting",
       "Defending",
       "Driving & Finishing",
@@ -60,8 +60,8 @@
       "6'8"
     ]
   },
-  "SF": {
-    "primary_skills": [
+  "Small Forward": {
+    "primarySkills": [
       "3PT Shooting",
       "Defending",
       "Driving & Finishing",
@@ -69,7 +69,7 @@
       "Post Scoring",
       "Shot Creating"
     ],
-    "secondary_skills": [
+    "secondarySkills": [
       "3PT Shooting",
       "Defending",
       "Driving & Finishing",
@@ -86,15 +86,15 @@
       "6'10"
     ]
   },
-  "PF": {
-    "primary_skills": [
+  "Power Forward": {
+    "primarySkills": [
       "3PT Shooting",
       "Defending",
       "Driving & Finishing",
       "Post Scoring",
       "Rebounding"
     ],
-    "secondary_skills": [
+    "secondarySkills": [
       "3PT Shooting",
       "Defending",
       "Driving & Finishing",
@@ -112,15 +112,15 @@
       "7'0"
     ]
   },
-  "C": {
-    "primary_skills": [
+  "Center": {
+    "primarySkills": [
       "3PT Shooting",
       "Defending",
       "Driving & Finishing",
       "Post Scoring",
       "Rebounding"
     ],
-    "secondary_skills": [
+    "secondarySkills": [
       "3PT Shooting",
       "Defending",
       "Driving & Finishing",
