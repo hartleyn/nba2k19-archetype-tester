@@ -2,12 +2,19 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import Paper from '@material-ui/core/Paper';
-import { fetchSecondarySkills, fetchArchetypeData } from '../actions/skillActions';
+import { 
+  fetchSecondarySkills, 
+  fetchArchetypeData,
+} from '../actions/skillActions';
 
 
 class SkillCard extends Component {
   constructor(props) {
     super(props);
+
+    this.state = {
+      primarySkills: [],
+    }
 
     this.onClick = this.onClick.bind(this);
   }
